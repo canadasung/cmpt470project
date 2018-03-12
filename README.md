@@ -3,22 +3,10 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+1. You may or may not need to install rails and bundle manually in vagrant.
+Take a look at VagrantFile to see how to do that if things aren't working 
+correctly
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+2. Vuex, vuetify, and vue router are already added
