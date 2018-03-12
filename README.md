@@ -10,3 +10,5 @@ Take a look at VagrantFile to see how to do that if things aren't working
 correctly
 
 2. Vuex, vuetify, and vue router are already added
+
+3. type "foreman start" after sshing into vagrant to run the project
