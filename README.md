@@ -21,9 +21,9 @@ correctly
     that user. This is not a Vagrant issue.
     
     The UID used to create the VM was: 1000
+    
     Your UID is: 0
 
     
 - go to  cd .vagrant/machines/default/virtualbox
-- open and edit creator_uid so that it matches the same UID that was used to
-  create the VM
+- open and edit creator_uid so that it matches your UID
