@@ -1,0 +1,17 @@
+{
+  "name": "final-project",
+  "private": true,
+  "dependencies": {
+    "@rails/webpacker": "^3.3.0",
+    "vue": "^2.5.15",
+    "vue-loader": "^14.2.1",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.15",
+    "vuetify": "^1.0.6",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
