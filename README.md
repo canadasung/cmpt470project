@@ -13,26 +13,23 @@ correctly. Only do this if you are required to.
 
 4. If you need to install yarn, enter the following in the command line:
 
-    curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-   
-    echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-   
-    sudo apt-get update && sudo apt-get install yarn
-    
-    yarn add webpack-cli -D
+        curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+        echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+        sudo apt-get update && sudo apt-get install yarn
+        yarn add webpack-cli -D
 
 5. type "foreman start" after sshing into vagrant to run the project
     
-   You may get this error when running foreman "/usr/bin/env: ‘ruby\r’: No such file or directory"
+    You may get this error when running foreman "/usr/bin/env: ‘ruby\r’: No such file or directory"
 
-   To fix this, do the following:
+    To fix this, do the following:
    
-    - Go to the bin folder
-    - Open up the files in a text editor
-    - Change each files line ending to LF (unix) and save
-    - On Atom, ctrl + shift + p and type LF into the search bar or click on CRLF on the bottom right corner
+        - Go to the bin folder
+        - Open up the files in a text editor
+        - Change each files line ending to LF (unix) and save
+        - On Atom, ctrl + shift + p and type LF into the search bar or click on CRLF on the bottom right corner
         - more information: https://github.com/atom/line-ending-selector
-    - On Sublime, Click View -> Line ending -> Unix
+        - On Sublime, Click View -> Line ending -> Unix
 
 
 6. If you get the following message when running vagrant up:
